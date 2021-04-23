@@ -15,11 +15,7 @@ var path = require("path");
 
 const app = express();
 
-// const DB = process.env.DATABASE.replace(
-// "<PASSWORD>",
-// process.env.DATABASE_PASSWORD
-// );
-const DB = "mongodb+srv://kamran:1234@cluster0-fvxek.mongodb.net/design-codes?retryWrites=true&w=majority"; //investor_portal  lockdown
+const DB = "mongodb+srv://kamran:1234@cluster0-fvxek.mongodb.net/design-codes?retryWrites=true&w=majority"; //for your testing i am not including in .env file
 ;
 
 mongoose
